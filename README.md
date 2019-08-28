@@ -1,2 +1,2 @@
-# docski
-Static docs generator
+# Docski
+Static docs generator from markdown
