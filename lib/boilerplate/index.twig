@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>{{ data.title }}</title>
+</head>
+<body>
+{% macro nav (items) %}
+	{% import _self as _ %}
+	<ul>
+		{% for title, children in items %}
+			<li>
+				{% if children is iterable %}
+					<strong>{{ title }}</strong>
+					{{ _.nav(children) }}
+				{% else %}
+					<a href="{{ children }}">{{ title }}</a>
+				{% endif %}
+			</li>
+		{% endfor %}
+	</ul>
+{% endmacro %}
+{% import _self as _ %}
+{{ _.nav(nav) }}
+
+{{ content }}
+</body>
+</html>
