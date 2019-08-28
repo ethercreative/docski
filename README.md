@@ -1,0 +1,2 @@
+# docski
+Static docs generator
