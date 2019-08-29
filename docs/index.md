@@ -63,7 +63,7 @@ The following variables are passed to each template:
 This contains all the front-matter that was set in the markdown file.
 
 #### `nav`
-Contains a iterable object of the entire docs navigation where the key is the 
+Contains an iterable object of the entire docs navigation where the key is the 
 title of the file or folder, and the value is either the path to the file or the 
 children of the folder.
 
