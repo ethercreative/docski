@@ -1,3 +1,6 @@
+## 1.0.5 - 2019-08-29
+- Revert previous
+
 ## 1.0.4 - 2019-08-29
 - Remove file before re-save
 
