@@ -1,3 +1,6 @@
+## 1.0.3 - 2019-08-29
+- Fix typo
+
 ## 1.0.2 - 2019-08-29
 - Add checking message
 
