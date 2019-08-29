@@ -10,6 +10,7 @@
     "chalk": "^2.4.2",
     "commander": "^3.0.0",
     "gray-matter": "^4.0.2",
+    "highlight.js": "^9.15.10",
     "inquirer": "^7.0.0",
     "markdown-it": "^9.1.0",
     "node-fetch": "^2.6.0",
