@@ -1,3 +1,6 @@
+## 1.0.4 - 2019-08-29
+- Remove file before re-save
+
 ## 1.0.3 - 2019-08-29
 - Fix typo
 
