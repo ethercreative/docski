@@ -66,5 +66,11 @@ Contains a iterable object of the entire docs navigation where the key is the
 title of the file or folder, and the value is either the path to the file or the 
 children of the folder.
 
+#### `toc`
+An array containing the table of contents for the file. Each item contains:
+- `content` - The content of the heading
+- `anchor` - The headings anchor
+- `level` - The level of the heading (1-3)
+
 #### `content`
 The parsed markdown content. 
