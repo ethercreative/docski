@@ -75,5 +75,3 @@ An array containing the table of contents for the file. Each item contains:
 
 #### `content`
 The parsed markdown content. 
-
-![test](./test.jpg)
