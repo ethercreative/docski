@@ -10,8 +10,8 @@ program
 	.action(() => require('../lib/init')());
 
 program
-	.command('build <handle>')
-	.description('Build the given repo handle')
+	.command('build [handle]')
+	.description('Build the given repo handle or all repos if no handle given')
 	.action(handle => require('../lib/build')(handle));
 
 program.parse(process.argv);
