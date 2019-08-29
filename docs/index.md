@@ -2,7 +2,9 @@
 title: Docski
 layout: index
 ---
-# Docski 🚢⛷
+# Docski
+
+**A CHANGE**
 
 Convert markdown files in your repo's `docs/` directory into static HTML docs.
 
