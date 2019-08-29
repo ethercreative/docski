@@ -483,6 +483,11 @@ lower-case@^1.1.1:
   resolved "https://registry.yarnpkg.com/lower-case/-/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
   integrity sha1-miyr0bno4K6ZOkv31YdcOcQujqw=
 
+markdown-it-replace-link@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-it-replace-link/-/markdown-it-replace-link-1.0.1.tgz#1ecf9da82939ccbbbe010ab1b2a32f1ef28fba42"
+  integrity sha1-Hs+dqCk5zLu+AQqxsqMvHvKPukI=
+
 markdown-it-toc-and-anchor@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/markdown-it-toc-and-anchor/-/markdown-it-toc-and-anchor-4.2.0.tgz#d1613327cc63c61f82cd66cbac5564f4db12c0e9"

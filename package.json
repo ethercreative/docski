@@ -16,6 +16,7 @@
     "highlight.js": "^9.15.10",
     "inquirer": "^7.0.0",
     "markdown-it": "^9.1.0",
+    "markdown-it-replace-link": "^1.0.1",
     "markdown-it-toc-and-anchor": "^4.2.0",
     "node-fetch": "^2.6.0",
     "param-case": "^2.1.1",

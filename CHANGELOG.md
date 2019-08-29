@@ -1,6 +1,7 @@
 ## 1.0.6 - 2019-08-29
 - Add wait for raw.githubusercontent.com TTL before rendering
 - Download non-md files and store in relative location
+- Fix relative links
 
 ## 1.0.5 - 2019-08-29
 - Revert previous
