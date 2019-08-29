@@ -1,8 +1,10 @@
 {
   "name": "docski",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Static docs generator from markdown",
-  "main": "bin/index.js",
+  "bin": {
+    "docski": "bin/docski.js"
+  },
   "repository": "https://github.com/ethercreative/docski.git",
   "author": "Tam <hi@tam.sx>",
   "license": "MIT",
