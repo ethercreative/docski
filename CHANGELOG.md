@@ -1,3 +1,8 @@
+## 1.0.7 - 2019-08-30
+- Don't erase existing docs till after new docs have been gathered
+- Increase watch duration
+- Add docs variable to templates
+
 ## 1.0.6 - 2019-08-29
 - Add wait for raw.githubusercontent.com TTL before rendering
 - Download non-md files and store in relative location

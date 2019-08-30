@@ -73,5 +73,10 @@ An array containing the table of contents for the file. Each item contains:
 - `anchor` - The headings anchor
 - `level` - The level of the heading (1-3)
 
+#### `docs`
+An iterable object of all the docs that Docski is rendering. Key is the handle
+of the docs in the `repo` config object converted to title case, the value is
+the original handle.
+
 #### `content`
 The parsed markdown content. 
