@@ -121,7 +121,7 @@ cli-width@^2.0.0:
   resolved "https://registry.yarnpkg.com/cli-width/-/cli-width-2.2.0.tgz#ff19ede8a9a5e579324147b0c11f0fbcbabed639"
   integrity sha1-/xnt6Kml5XkyQUewwR8PvLq+1jk=
 
-clone@^2.1.0:
+clone@^2.1.0, clone@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/clone/-/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
   integrity sha1-G39Ln1kfHo+DZwQBYANFoCiHQ18=
@@ -482,6 +482,11 @@ lower-case@^1.1.1:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/lower-case/-/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
   integrity sha1-miyr0bno4K6ZOkv31YdcOcQujqw=
+
+markdown-it-external-links@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/markdown-it-external-links/-/markdown-it-external-links-0.0.6.tgz#9503258fce4c81010ea15fe71769d63a1346d801"
+  integrity sha1-lQMlj85MgQEOoV/nF2nWOhNG2AE=
 
 markdown-it-replace-link@^1.0.1:
   version "1.0.1"

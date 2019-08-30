@@ -13,8 +13,9 @@ program
 
 program
 	.command('build [handle]')
+	.option('--skip-ttl', 'Skip the TTL wait')
 	.description('Build the given repo handle or all repos if no handle given')
-	.action(handle => require('../lib/build')(handle));
+	.action((handle, flags) => require('../lib/build')(handle, flags));
 
 program
 	.command('watch [handle]')
