@@ -1,3 +1,7 @@
+## [Unreleased] 1.1.0
+- Improve data gathering
+- Minify rendered markup
+
 ## 1.0.10 - 2019-08-30
 - Remove top index file from nav
 

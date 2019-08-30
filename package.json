@@ -1,6 +1,6 @@
 {
   "name": "docski",
-  "version": "1.0.10",
+  "version": "1.1.0",
   "description": "Static docs generator from markdown",
   "bin": {
     "docski": "bin/docski.js"
@@ -15,6 +15,7 @@
     "feedme": "^1.2.0",
     "gray-matter": "^4.0.2",
     "highlight.js": "^9.15.10",
+    "html-minifier": "^4.0.0",
     "inquirer": "^7.0.0",
     "markdown-it": "^9.1.0",
     "markdown-it-external-links": "^0.0.6",
