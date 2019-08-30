@@ -75,9 +75,8 @@ An array containing the table of contents for the file. Each item contains:
 - `level` - The level of the heading (1-3)
 
 #### `docs`
-An iterable object of all the docs that Docski is rendering. Key is the handle
-of the docs in the `repo` config object converted to title case, the value is
-the original handle.
+An iterable object of all the docs that Docski is rendering. It is identical to 
+your `repos` config object.
 
 #### `repo`
 The repo object from your config file, including `handle`.

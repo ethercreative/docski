@@ -1,3 +1,6 @@
+## 1.0.9 - 2019-08-30
+- Better docs nav
+
 ## 1.0.8 - 2019-08-30
 - Include index pages in nav
 - Make all external links `target="_blank" rel="nofollow noopener"`
