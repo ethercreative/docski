@@ -1,3 +1,6 @@
+## 1.0.10 - 2019-08-30
+- Remove top index file from nav
+
 ## 1.0.9 - 2019-08-30
 - Better docs nav
 
