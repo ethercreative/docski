@@ -1,3 +1,7 @@
+## 1.0.12 - 2019-09-02
+- Fix watch command erring due to old dep
+- Add `rebuild` and `verbose` flags to watch
+
 ## 1.0.11 - 2019-08-30
 - Improve data gathering
 - Minify rendered markup

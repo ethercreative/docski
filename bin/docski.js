@@ -19,8 +19,10 @@ program
 
 program
 	.command('watch [handle]')
+	.option('--rebuild', 'Will rebuild everything on run')
+	.option('--verbose', 'Will log all the things')
 	.description('Watch the repos for changes and re-build the docs accordingly')
-	.action(() => require('../lib/watch')());
+	.action((handle, flags) => require('../lib/watch')(handle, flags));
 
 program.parse(process.argv);
 
