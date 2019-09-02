@@ -1,3 +1,6 @@
+## 1.0.14 - 2019-09-03
+- Fix flat getting wrong template path
+
 ## 1.0.13 - 2019-09-03
 - Add flat file rendering
 
