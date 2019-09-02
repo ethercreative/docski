@@ -18,12 +18,16 @@ yarn add docski
 ### `docski init`
 Will setup your docski environment.
 
-### `docski build [handle]`
+### `docski build [handle] [--skip-ttl]`
 Will build the static docs for your repos (or just the repo of the given handle)
+- `--skip-ttl` will skip the wait for TTL (Fastly cache). This can be included 
+if you're confident that all files will be under 1MB. 
 
-### `docski watch [handle]`
+### `docski watch [handle] [--rebuild] [--verbose]`
 Will watch the repos (or just the repo of the given handle) for new commits, 
 and will re-build the docs when a commit is pushed.
+- `--rebulid` will rebuild the repo(s) on initial startup
+- `--verbose` will log verbosely
 
 ## Config
 
@@ -40,6 +44,36 @@ A key value object of the repos you want to build, where the key is the handle
 you want to use for that repo (will also be the folder name containing the 
 static files), and the value is an object containing the docs title, repo path
 and custom meta.
+
+## Writing
+
+Write your docs in markdown and place them inside your `docs` folder in the root
+of your git repos master branch. The folder structure will mirror the route 
+structure in the rendered docs.
+
+### Front-matter
+You can include front-matter at the top of your markdown files. It should be 
+valid YAML and contained within 3 dash blocks:
+
+```markdown
+
+---
+title: Hello world!
+layout: post
+colour: hotpink
+---
+
+... Your markdown ...
+```
+
+There are two values that are used internally, but are both optional:
+- `title` The title of the document (will default to the name of the file in 
+Title Case)
+- `layout` The path to the twig file in your templates folder (without the 
+`.twig` extension).
+
+All other attribute are custom and can be whatever you want. You can access all
+front-matter via the `data` variable in your templates.
 
 ## Templating
 
