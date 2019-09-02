@@ -18,9 +18,15 @@ program
 	.action((handle, flags) => require('../lib/build')(handle, flags));
 
 program
+	.command('flat [handle]')
+	.description('Render any flat files specified in your config')
+	.action((handle) => require('../lib/flat')(handle));
+
+program
 	.command('watch [handle]')
 	.option('--rebuild', 'Will rebuild everything on run')
 	.option('--verbose', 'Will log all the things')
+	.option('--flat', 'Will re-render flat files')
 	.description('Watch the repos for changes and re-build the docs accordingly')
 	.action((handle, flags) => require('../lib/watch')(handle, flags));
 

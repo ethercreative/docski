@@ -1,3 +1,6 @@
+## 1.0.13 - 2019-09-03
+- Add flat file rendering
+
 ## 1.0.12 - 2019-09-02
 - Fix watch command erring due to old dep
 - Add `rebuild` and `verbose` flags to watch
