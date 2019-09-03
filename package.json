@@ -1,6 +1,6 @@
 {
   "name": "docski",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "Static docs generator from markdown",
   "bin": {
     "docski": "bin/docski.js"
