@@ -1,3 +1,6 @@
+## [Unreleased] 1.1.0
+- Move to database powered building
+
 ## 1.0.22 - 2019-09-03
 - Make watch recheck after delay, even if it errors 
 
