@@ -12,14 +12,12 @@ structure in the rendered docs.
 You can include front-matter at the top of your markdown files. It should be 
 valid YAML and contained within 3 dash blocks:
 
-```markdown
+```yaml
 ---
 title: Hello world!
 layout: post
 colour: hotpink
 ---
-
-... Your markdown ...
 ```
 
 There are two values that are used internally, but are both optional:
