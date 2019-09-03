@@ -1,3 +1,15 @@
+## 1.0.18 - 2019-09-03
+- Make URLs absolute
+
+## 1.0.17 - 2019-09-03
+- More data gathering fixes
+
+## 1.0.16 - 2019-09-03
+- Fix nested file issue
+
+## 1.0.15 - 2019-09-03
+- Fix issue getting dir contents
+
 ## 1.0.14 - 2019-09-03
 - Fix flat getting wrong template path
 
