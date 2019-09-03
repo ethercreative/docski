@@ -1,3 +1,6 @@
+## 1.0.19 - 2019-09-03
+- Fix url param
+
 ## 1.0.18 - 2019-09-03
 - Make URLs absolute
 
