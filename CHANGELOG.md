@@ -1,3 +1,6 @@
+## 1.0.20 - 2019-09-03
+- Fix flat rendering
+
 ## 1.0.19 - 2019-09-03
 - Fix url param
 
