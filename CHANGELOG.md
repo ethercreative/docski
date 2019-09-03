@@ -1,3 +1,6 @@
+## 1.0.22 - 2019-09-03
+- Make watch recheck after delay, even if it errors 
+
 ## 1.0.21 - 2019-09-03
 - Fix index flat rendering
 
