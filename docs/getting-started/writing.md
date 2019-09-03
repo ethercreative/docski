@@ -13,7 +13,6 @@ You can include front-matter at the top of your markdown files. It should be
 valid YAML and contained within 3 dash blocks:
 
 ```markdown
-
 ---
 title: Hello world!
 layout: post
