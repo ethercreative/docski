@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "index": "Docski",
+    "getting-started": {
+      "_label": "Getting Started",
+      "config": "Config",
+      "usage": "Usage",
+      "templating": "Templating",
+      "writing": "Writing"
+    }
+  }
+}
