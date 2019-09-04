@@ -1,5 +1,6 @@
-## [Unreleased] 1.1.0
+## 1.1.0 - 2019-09-04
 - Move to database powered building
+- Add `.docs.json` support
 
 ## 1.0.22 - 2019-09-03
 - Make watch recheck after delay, even if it errors 
