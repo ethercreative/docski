@@ -1,3 +1,6 @@
+## 1.1.1 - 2019-09-04
+- Fix not building nested files correctly
+
 ## 1.1.0 - 2019-09-04
 - Move to database powered building
 - Add `.docs.json` support

@@ -1,8 +1,9 @@
 {
   "nav": {
-    "index": "Docski",
+    "index": "Introduction",
     "getting-started": {
       "_label": "Getting Started",
+      "install": "Installation",
       "config": "Config",
       "usage": "Usage",
       "templating": "Templating",
