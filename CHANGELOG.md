@@ -1,3 +1,6 @@
+## 1.1.2 - 2019-10-15
+- Fix some files not being saved correctly
+
 ## 1.1.1 - 2019-09-04
 - Fix not building nested files correctly
 
