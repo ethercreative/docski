@@ -1,3 +1,9 @@
+## 1.1.6 - 2019-10-16
+- Fix issues with relative / hash links
+
+## 1.1.5 - 2019-10-16
+- Replace highlight.js with prism js
+
 ## 1.1.4 - 2019-10-16
 - Fix rendering keeping old data
 
