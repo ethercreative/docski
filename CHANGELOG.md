@@ -1,3 +1,6 @@
+## 1.1.4 - 2019-10-16
+- Fix rendering keeping old data
+
 ## 1.1.3 - 2019-10-15
 - Fix some files not being saved correctly
 
